@@ -10,7 +10,7 @@ body {
 input[type="checkbox"] {
 	width: 17px;
 	height: 17px;
-	margin-top: 10px;
+	margin-top: 8px;
 }
 .top-block {
 	background-color: #000;
@@ -110,5 +110,261 @@ input[type="checkbox"] {
 }
 .catalog-title {
 	color: #929292;
+	padding: 8px 0;
+	
+}
+.col-lg-2 .color {
+	margin-top: 45px;
+}
+.col-lg-2 .country {
+	margin-top: 20px;
+}
+.circle {
+	border-radius: 50%;
+    display: inline-block;
+    position: relative;
+	top: 1px;
+}
+.checkbox-custom {
+	margin-right: 5px;
+}
+.label {
+	margin-left: 5px;
+}
+
+.menu-lable {
+	display: inline;
+    position: relative;
+    top: -4px;
+}
+.color label, .country label {
+	display: block;
+}
+.country .catalog-title {
+	margin-bottom: 5px;
+}
+.show-more {
+	color: #00b2b0;
+	text-decoration:none;
+}
+
+.show-more:hover {
+	color: #00b2b0;
+	text-decoration: underline;
+}
+.show-more:focus {
+	color: #00b2b0;
+	text-decoration:none;
+}
+ 
+/******checkbox******/
+.checkbox {
+    display: none;
+}
+ 
+.checkbox-custom {
+    position: relative;      
+    width: 18px;             
+    height: 18px;            
+    border: 1px solid #e0e0e0;
+    border-radius: 3px;
+}
+.apply, .reset {
+	width: 148px;
+	font-size: 13px;
+	background-image: none;
+	text-shadow: none;
+	line-height: 26px;
+	margin: 5px 0;
+}
+.apply {
+	background-color: #00b2b0 !important;
+	color: #fff;
+	border: none;
+	margin-top: 15px;
+}
+.reset {
+	color: #929292;
+}
+.wrap {
+	margin-top: 47px;
+}
+.main-title {
+	padding: 0;
+	margin: 0 0 30px;
+	font-size: 25px;
+}
+.sorting {
+	line-height: 31px;
+}
+input, textarea, select, option {
+	outline:none;
+	
+}
+textarea:focus, input:focus, select:focus, option:focus{
+	outline: none;
+}
+.sorting select {
+	padding: 5px 6px;
+	border-radius: 4px;
+	border-color: #e0e0e0;
+	
+}
+.sorting {
+	text-align: right;
+	padding-right: 14px;
+}
+.cat-tile-label {
+	margin: 12px 0;
+}
+.cat-price {
+	font-size: 19px;
+	color: #00b2b0;
+	margin-bottom: 45px;
+}
+.cat-price span {
+	color: #9f9f9f;
+}
+.pagi-fer ul li a {
+	color: #000 !important;
+}
+.pagi-fer .active a {
+	background-color: #e0e0e0!important;
+	border-color: #e0e0e0!important;
+}
+.pagi-fer .pagination>li>a {
+	padding: 4px 12px 3px !important;
+}
+footer {
+	background-color: #2b2a2b;
+	padding-top: 90px;
+}
+.footer-logo {
+	background: url(../img/main-logo.png) no-repeat;
+	padding-top: 60px;
+}
+.footer-info {
+	color: #9f9f9f;
+}
+.footer-adress, .footer-phone, .footer-email, .footer-site {
+	padding-left: 30px;
+	margin: 13px 0;
+}
+.footer-adress {
+	background: url(../img/ico-map.png) no-repeat 3px 0;
+	margin-top: 30px;
+}
+.footer-phone {
+	background: url(../img/ico-phone.png) no-repeat 4px 0;
+}
+.footer-email {
+	background: url(../img/ico-email.png) no-repeat 1px 0;
+}
+.footer-site {
+	background: url(../img/ico-site.png) no-repeat;
+}
+.footer-menu-title {
+	font-size: 25px;
+	color: #fff;
+	height: 60px;
+}
+.footer-menu-title span {
+	padding-bottom: 14px;
+	border-bottom: 1px solid #424242;
+}
+footer ul {
+	padding: 0;
+}
+footer ul li {
+	list-style-type: none;
 	padding: 5px 0;
+}
+footer a { 
+	color: #cecece;
+}
+footer ul li a {
+	color: #cecece;
+	font-size: 17px;
+}
+.subscribe_input {
+	line-height:48px;
+	padding-left: 20px;
+    border-radius: 8px;
+	padding-right: 60px;
+	width:100%;
+	border: none;
+}
+.subscribe_input-submit {
+	background: url(../img/subscrebe-submit.png) no-repeat;
+    width: 52px;
+    height: 50px;
+    border: none;
+    position: absolute;
+    top: 60px;
+    right: 15px;
+}
+.form-subscribe {
+	padding-bottom: 40px;
+	border-bottom: 1px solid #424242;
+	margin-bottom: 27px;
+}
+.social-links a {
+	display: block;
+	padding-left: 25px;
+	line-height: 16px;
+	margin-right: 22px;
+	margin-bottom: 15px;
+	float: left;
+}
+.social-links a:hover {
+	color: #cecece;
+}
+.social-links a:nth-child(1) {
+	background: url(../img/ico-vk.png) no-repeat 0 4px;
+}
+.social-links a:nth-child(2) {
+	background: url(../img/ico-fb.png) no-repeat 0 1px;
+}
+.social-links a:nth-child(3) {
+	background: url(../img/ico-tw.png) no-repeat 0 3px;
+}
+.social-links a:nth-child(4) {
+	background: url(../img/ico-insta.png) no-repeat 0 1px;
+}
+.social-links a:nth-child(5) {
+	background: url(../img/ico-pin.png) no-repeat 0 1px;
+}
+/* Кастомный чекбокс и лейбл центрируем по вертикали. Если вам это не требуется, то вы можете убрать свойство vertical-align: middle из данного правила, но свойство display: inline-block обязательно должно быть */
+.checkbox-custom,
+.label {
+    display: inline-block;
+	color: #000;
+	font-size: 14px;
+	font-weight: 500;
+	padding: 0;
+	position: relative;
+    top: -4px;
+	vertical-align: middle;
+}
+.color label {
+	margin-bottom: 7px;
+}
+.country label  {
+	margin-bottom: 14px;
+}
+
+/* Если реальный чекбокс у нас отмечен, то тогда добавляем данный признак и к нашему кастомному чекбоксу  */
+.checkbox:checked + .checkbox-custom::before {
+    content: "";             /* Добавляем наш псевдоэлемент */
+    display: block;          /* Делаем его блочным элементом */
+    position: absolute;      /* Позиционируем его абсолютным образом */
+ 
+    /* Задаем расстояние от верхней, правой, нижней и левой границы */
+    top: 3px;
+    right: 3px;
+    bottom: 3px;
+    left: 3px;
+ 
+    background: #00b2b0;     /* Добавляем фон. Если требуется, можете поставить сюда картинку в виде "галочки", которая будет символизировать, что чекбокс отмечен */
+    border-radius: 2px;
 }
