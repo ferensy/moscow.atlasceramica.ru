@@ -41,11 +41,16 @@ input[type="checkbox"] {
 .col-md-12 {
 	text-align: center;
 }
-.logo {
+.logo, .logo-black  {
 	display: block;
 	height: 17px;
 	width: 115px;
-	background: url(../img/main-logo.png) no-repeat;
+}
+.logo {
+	background: url(../img/main-logo.png) no-repeat;	
+}
+.logo-black {
+	background: url(../img/main-logo-black.png) no-repeat;
 }
 .gray {
 	color: #c0c0c0;
@@ -53,20 +58,73 @@ input[type="checkbox"] {
 .menu-top {
 	padding-top:50px;
 }
+.menu-top-black {
+	padding: 30px 0 14px;
+}
 
-.menu-top ul {
+.menu-top ul, .menu-top-black ul {
 	text-transform: uppercase;
 	
 }
 
-.menu-top nav a {
+.menu-top nav a, .menu-top-black nav a{
 	display: block;
+}
+.menu-top nav a {
 	color: #fff;
+}
+.menu-top-black nav a {
+	color: #000;
+}
+.cart-black {
+	background: url(../img/cart-black.png) no-repeat 0 2px;
+}
+.cart {
+	background: url(../img/cart.png) no-repeat 0 2px;
+	color: #fff;
+}
+.cart, .cart-black {
+	padding-left: 28px;
+	line-height: 16px;
+    position: relative;
+    top: -6px;
+}
+.bc {
+	background: url(../img/top-menu-bg.gif) repeat-x top;
+}
+.bc h1 {
+	margin-top: 0;
+	font-size: 26px;
+	font-weight: bold;
+}
+.bc h2 {
+	font-size: 22px;
+}
+.bc h3 {
+	font-size: 20px;
+	margin-top: 40px;
+	margin-bottom: 20px;
+	padding: 0 15px;
+}
+.breadcrumbs {
+	color: #9f9f9f;
+	font-size: 16px;
+    line-height: 76px;
+}
+.breadcrumbs a {
+	color: #000;
+}
+.collect-descr {
+	font-size: 17px;
+	line-height: 19px;
 }
 .search-ico-style {
 	font-size: 20px;
 	color: #fff;
 	cursor: pointer;
+}
+.menu-top-black .search-ico-style {
+	color: #000;
 }
 .search-ico-style:hover {
 	color: #00b2b0;
@@ -169,7 +227,7 @@ input[type="checkbox"] {
     border: 1px solid #e0e0e0;
     border-radius: 3px;
 }
-.apply, .reset {
+.apply, .reset, .collect-button {
 	width: 148px;
 	font-size: 13px;
 	background-image: none;
@@ -185,6 +243,23 @@ input[type="checkbox"] {
 }
 .reset {
 	color: #929292;
+}
+.collect-button {
+	width: 300px;
+	color: #00b2b0;
+	border: 1px solid #00b2b0;
+	margin-top: 30px;
+}
+.collect-button:hover {
+	background-color: #00b2b0 !important;
+	color: #fff;
+}
+.collect-good {
+	float: left;
+	margin-right: 30px;
+	width: 200px;
+	padding: 0 15px;
+	margin-bottom: 10px;
 }
 .manufact {
 	padding-top: 40px;
