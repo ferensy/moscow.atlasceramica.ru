@@ -186,6 +186,9 @@ input[type="checkbox"] {
 .reset {
 	color: #929292;
 }
+.manufact {
+	padding-top: 40px;
+}
 .wrap {
 	margin-top: 47px;
 }
@@ -238,6 +241,7 @@ textarea:focus, input:focus, select:focus, option:focus{
 footer {
 	background-color: #2b2a2b;
 	padding-top: 90px;
+	padding-bottom: 90px;
 }
 .footer-logo {
 	background: url(../img/main-logo.png) no-repeat;
@@ -280,6 +284,9 @@ footer ul li {
 	padding: 5px 0;
 }
 footer a { 
+	color: #cecece;
+}
+footer a:hover {
 	color: #cecece;
 }
 footer ul li a {
@@ -336,6 +343,16 @@ footer ul li a {
 }
 .modal .apply {
 	margin-top: 5px;
+}
+.manuf-title {
+	float: left;
+	position: relative;
+	top:10px;
+	left: 20px;
+	font-size: 20px;
+}
+.modal-header {
+	border-bottom: none;
 }
 /* Кастомный чекбокс и лейбл центрируем по вертикали. Если вам это не требуется, то вы можете убрать свойство vertical-align: middle из данного правила, но свойство display: inline-block обязательно должно быть */
 .checkbox-custom,
