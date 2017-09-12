@@ -269,6 +269,7 @@ input[type="checkbox"] {
 	padding: 40px;
 	font-size: 17px;
     line-height: 19px;
+	margin-bottom: 40px;
 }
 .manuf-text h1 {
 	font-size: 25px;
@@ -437,9 +438,36 @@ footer ul li a {
 	left: 20px;
 	font-size: 20px;
 }
+.manuf-label {
+	display: block;
+	font-size: 25px;
+	margin: 30px 0 15px;
+}
+.manuf-descr {
+	font-size: 16px;
+}
 .modal-header {
 	border-bottom: none;
 }
+
+.manuf-field {
+	margin-bottom: 80px;
+}
+
+.manuf-img-wrap {
+	height: 368px;
+	display: table;
+	border: 1px solid #eeeeee;
+	width: 100%;
+}
+
+.manuf-img-wrap  div {
+	display: table-cell;
+    vertical-align: middle;
+	text-align: center;
+}
+
+
 /* Кастомный чекбокс и лейбл центрируем по вертикали. Если вам это не требуется, то вы можете убрать свойство vertical-align: middle из данного правила, но свойство display: inline-block обязательно должно быть */
 .checkbox-custom,
 .label {
