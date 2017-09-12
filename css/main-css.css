@@ -507,6 +507,91 @@ footer ul li a {
 .articles-text {
 	font-size: 15px;
 }
+.tumbnails {
+	margin-top: 10px;
+}
+.social-ico {
+	margin: 30px 0 0;
+}
+.good-sale {
+	color: #fff;
+	background-color: #00b2b0;
+	padding: 8px 10px;
+	border-radius: 5px;
+	display: inline-block;
+}
+.float-left {
+	float: left;
+}
+.stock-in {
+	color: #00b2b0;
+	line-height: 34px;
+	margin-left: 90px;
+}
+.good-title {
+	font-weight: 500 !important;
+}
+.property {
+	font-size: 19px;
+	line-height: 60px;
+}
+.property-table td{
+	font-size: 15px;
+	padding: 5px 50px 5px 10px;
+}
+.property-table td:first-child {
+	color: #9f9f9f;
+}
+.visio {
+	background: url(../img/3d-visio.png) no-repeat;
+	width: 230px;
+	height: 57px;
+	margin-top: 67px;
+}
+.price {
+	font-size: 28px;
+	color: #00b2b0;
+	float: left;
+	line-height: 60px;
+}
+.price-block {
+	display: table;
+	float: left;
+}
+.price span {
+	font-size: 18px;
+	color: #9f9f9f;
+	text-decoration: line-through;
+	margin-left: 10px;
+}
+.quantity {
+	display: table-cell;
+	vertical-align: middle;
+}
+.quantity input {
+	padding: 12px 10px;
+	width: 50px;
+	height: 30px;
+	border: 1px solid #e0e0e0;
+	border-radius: 4px;
+	margin:0 10px 0 30px;
+}
+.cart-button {
+	width: 300px;
+	color: #00b2b0;
+	font-size: 13px;
+	background-image: none;
+	text-shadow: none;
+	line-height: 26px;
+	border: 1px solid #00b2b0;
+	float: left;
+    margin: 12px 0 0 30px;
+}
+.cart-button:hover {
+	background-color: #00b2b0 !important;
+	color: #fff;
+}
+
 /* Кастомный чекбокс и лейбл центрируем по вертикали. Если вам это не требуется, то вы можете убрать свойство vertical-align: middle из данного правила, но свойство display: inline-block обязательно должно быть */
 .checkbox-custom,
 .label {
