@@ -493,8 +493,20 @@ footer ul li a {
     font-size: 15px;
     line-height: 20px;
 }
-
-
+.articles-row {
+	padding-bottom: 30px;
+	border-bottom: 1px solid #eeeeee;
+	margin-bottom: 30px;
+}
+.articles-title {
+	display: block;
+	font-size: 20px;
+	margin-bottom: 10px;
+	
+}
+.articles-text {
+	font-size: 15px;
+}
 /* Кастомный чекбокс и лейбл центрируем по вертикали. Если вам это не требуется, то вы можете убрать свойство vertical-align: middle из данного правила, но свойство display: inline-block обязательно должно быть */
 .checkbox-custom,
 .label {
