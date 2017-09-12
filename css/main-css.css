@@ -467,6 +467,32 @@ footer ul li a {
     vertical-align: middle;
 	text-align: center;
 }
+.single-page-wrapper {
+	margin-bottom: 20px;
+}
+.single-page-title {
+	font-size: 22px !important;
+}
+.single-page-wrapper {
+	
+}
+.single-page-content div {
+	display: table;
+	float: left;
+	margin: 0 10px 10px 0;
+}
+.single-page-content div div {
+	display: table-cell;
+    vertical-align: middle;
+	text-align: center;
+	height: 200px;
+	float: none;
+}
+.single-page-content p {
+	margin: 0 0 20px;
+    font-size: 15px;
+    line-height: 20px;
+}
 
 
 /* Кастомный чекбокс и лейбл центрируем по вертикали. Если вам это не требуется, то вы можете убрать свойство vertical-align: middle из данного правила, но свойство display: inline-block обязательно должно быть */
