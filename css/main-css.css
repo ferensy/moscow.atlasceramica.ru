@@ -306,6 +306,7 @@ textarea:focus, input:focus, select:focus, option:focus{
 }
 .cat-tile-label {
 	margin: 12px 0;
+	display: block;
 }
 .cat-price {
 	font-size: 19px;
