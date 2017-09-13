@@ -584,14 +584,68 @@ footer ul li a {
 	text-shadow: none;
 	line-height: 26px;
 	border: 1px solid #00b2b0;
-	float: left;
     margin: 12px 0 0 30px;
 }
 .cart-button:hover {
 	background-color: #00b2b0 !important;
 	color: #fff;
 }
+.list_inf_card {
+	padding-left: 10px;
+}
+.list_inf_card li {
+	margin-top: 8px;
+}
+.cart-table {
+	width: 100%;
+}
+.cart-table td {
+	padding: 5px;
+	border-bottom: 1px solid #e0e0e0;
+}
 
+.cart-table .quantity input {
+	margin-left: 0;
+}
+.total {
+	font-size: 20px;
+	text-align: right;
+	margin: 20px 0 5px;
+}
+.total  span {
+	font-weight: bold;
+}
+.min-price {
+	text-align: right;
+}
+.cart-table a:hover {
+	text-decoration: none;
+}
+.min-price {
+	color: #cc0000;
+}
+.form-order {
+	margin-top: 40px;
+}
+.form_card input, .form_card textarea {
+	width: 100%;
+	margin-bottom: 10px;
+	height: 30px;
+	border: 1px solid #e0e0e0; 
+	border-radius: 4px;
+	padding: 10px;
+}
+.form_card textarea {
+	height: 100px;
+}
+.form_card p {
+	margin:0 0 2px;
+}
+.form_card a{
+	width: 100%;
+	margin-left: 0;
+	margin-bottom: 40px;
+}
 /* Кастомный чекбокс и лейбл центрируем по вертикали. Если вам это не требуется, то вы можете убрать свойство vertical-align: middle из данного правила, но свойство display: inline-block обязательно должно быть */
 .checkbox-custom,
 .label {

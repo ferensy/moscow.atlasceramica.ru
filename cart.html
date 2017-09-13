@@ -117,117 +117,87 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-lg-4">
-					<div class="good-img"><img src="img/19295.png" style="width:100%;" alt="" /></div>
-					<div class="row tumbnails">
-						<div class="col-lg-4 col-md-4">
-							<div class="good-img"><img src="img/1951_YDT3tGfX_full.jpg" style="width:100%;" alt="" /></div>
-						</div>
-						<div class="col-lg-4 col-md-4">
-							<div class="good-img"><img src="img/1951_uJGYAafC_full.jpg" style="width:100%;" alt="" /></div>
-						</div>
-						<div class="col-lg-4 col-md-4">
-							<div class="good-img"><img src="img/1951_aUuG6cCx_full.jpg" style="width:100%;" alt="" /></div>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-lg-12 social-ico">
-							<img src="img/social-ico.png" alt="" />
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-8">
-					<h1 class="good-title">L’ANTIC COLONIAL Мозаика из натурального камня GLOBE Brick</h1>
-					<div class="good-sale float-left">Акция&nbsp;&nbsp;&nbsp;%</div>
-					<div class="stock-in">В наличии</div>
-					<div class="row">
-						<div class="col-lg-6 col-md-6">
-						<div class="property">Свойства</div>
-							<table class="property-table">
-								<tr>
-									<td>Категория:</td>
-									<td>Плитка</td>
-								</tr>
-								<tr>
-									<td>Артикул:</td>
-									<td>A00207</td>
-								</tr>
-								<tr>
-									<td>Производитель:</td>
-									<td><a href="#">Alttoglass</a></td>
-								</tr>
-								<tr>
-									<td>Коллекция:</td>
-									<td><a href="#">Neiblas</a></td>
-								</tr>
-								<tr>
-									<td>Страна:</td>
-									<td>Испания</td>
-								</tr>
-								<tr>
-									<td>Материал:</td>
-									<td>Стекло</td>
-								</tr>
-								<tr>
-									<td>Тип плитки:</td>
-									<td>Мозаика</td>
-								</tr>
-								<tr>
-									<td>Поверхность:</td>
-									<td>Глянцевая</td>
-								</tr>
-								<tr>
-									<td>Цвет:</td>
-									<td>Синий</td>
-								</tr>
-								<tr>
-									<td>Размер:</td>
-									<td>33.3x33.3</td>
-								</tr>
-							</table>
-						</div>
-						<div class="col-lg-6 col-md-6">
-							<div class="visio"></div>
-						</div>
-					</div>
-					<div class="price-block">
-						<div class="price">1254 руб.<span>1334 руб.</span></div>
-						<form class="quantity">
-							<input type="number">м<sup>2</sup>
-						</form>
+				<div class="col-lg-12">
+					<h1>Корзина</h1 >
+					<table class="cart-table">
+						<tr>
+							<th width="10%"></th>
+							<th>Название</th>
+							<th width="15%">Количество</th>
+							<th width="15%">Цена</th>
+							<th width="5%"></th>
+						</tr>
+						<tr>
+							<td><img src="img/1.jpg" alt="Tile" style="width:100%;" ></td>
+							<td>Mainzu Плитка керамическая ATERRA Décor 15x30 см</td>
+							<td><form class="quantity"><input type="number">&nbsp;м<sup>2</sup></form></td>
+							<td>2300.76 руб.</td>
+							<td><a href="" class="glyphicon glyphicon-remove"></a></td>
+						</tr>
+						<tr>
+							<td><img src="img/1.jpg" alt="Tile" style="width:100%;" ></td>
+							<td>Mainzu Плитка керамическая ATERRA Décor 15x30 см</td>
+							<td><form class="quantity"><input type="number">&nbsp;м<sup>2</sup></form></td>
+							<td>2300.76 руб.</td>
+							<td><a href="" class="glyphicon glyphicon-remove"></a></td>
+						</tr>
+						<tr>
+							<td><img src="img/1.jpg" alt="Tile" style="width:100%;" ></td>
+							<td>Mainzu Плитка керамическая ATERRA Décor 15x30 см</td>
+							<td><form class="quantity"><input type="number">&nbsp;м<sup>2</sup></form></td>
+							<td>2300.76 руб.</td>
+							<td><a href="" class="glyphicon glyphicon-remove"></a></td>
+						</tr>
+						<tr>
+							<td><img src="img/1.jpg" alt="Tile" style="width:100%;" ></td>
+							<td>Mainzu Плитка керамическая ATERRA Décor 15x30 см</td>
+							<td><form class="quantity"><input type="number">&nbsp;м<sup>2</sup></form></td>
+							<td>2300.76 руб.</td>
+							<td><a href="" class="glyphicon glyphicon-remove"></a></td>
+						</tr>
 						
-					</div>
-					<a href="" class="btn btn-default cart-button">В корзину</a>
+					</table>
+					<div class="total">Итого: <span>16 584 руб.</span></div>
+					<div class="min-price">Обратите внимание, что минимальная сумма заказа 10 000 руб.</div>
 				</div>
 			</div>
-			<div class="row">
-				<h3>Другие товары из коллекции <a href="#">Neiblas</a></h3>
-				<div class="collect-good">
-					<img src="img/1.jpg" alt="Tile" >
-					<div class="cat-tile-label">L’ANTIC COLONIAL Мозаика из натурального камня GLOBE Brick</div>
-					<div class="cat-price">2174 р. <span>(шт.)</span></div>
+			<div class="row form-order">
+				<div class="col-lg-5 col-md-5">
+					<form method="POST" action="/zakaz/">
+						<div class="form_card">
+							<p>Контактное лицо <span class="red">*</span></p>
+							<input type="text" class="card_inp" name="cont_face" value="">
+							<p>Контактный телефон <span class="red">*</span></p>
+							<input type="text" class="card_inp" name="tel" value="">
+							<p>Адрес доставки <span class="red">*</span></p>
+							<input type="text" class="card_inp" name="adress" value="">
+							<p>Email адрес</p>
+							<input type="text" class="card_inp" name="email" value="">
+							<p>Дополнительная информация</p>
+							<textarea class="card_ta" name="dop_inf"></textarea>
+							<br>
+							<input type="hidden" name="add_zakaz" value="1">
+							<a href="" class="btn btn-default cart-button">Заказать</a>
+						</div>
+					</form>
 				</div>
-				<div class="collect-good">
-					<img src="img/1.jpg" alt="Tile" >
-					<div class="cat-tile-label">L’ANTIC COLONIAL Мозаика из натурального камня GLOBE Brick</div>
-					<div class="cat-price">2174 р. <span>(шт.)</span></div>
-				</div>
-				<div class="collect-good">
-					<img src="img/1.jpg" alt="Tile" >
-					<div class="cat-tile-label">L’ANTIC COLONIAL Мозаика из натурального камня GLOBE Brick</div>
-					<div class="cat-price">2174 р. <span>(шт.)</span></div>
-				</div>
-				<div class="collect-good">
-					<img src="img/1.jpg" alt="Tile" >
-					<div class="cat-tile-label">L’ANTIC COLONIAL Мозаика из натурального камня GLOBE Brick</div>
-					<div class="cat-price">2174 р. <span>(шт.)</span></div>
-				</div>
-				<div class="collect-good">
-					<img src="img/1.jpg" alt="Tile" >
-					<div class="cat-tile-label">L’ANTIC COLONIAL Мозаика из натурального камня GLOBE Brick</div>
-					<div class="cat-price">2174 р. <span>(шт.)</span></div>
+				<div class="col-lg-6 col-lg-offset-1 col-md-6 col-md-offset-1">
+<p style="font-size: 15px;">Заказать товары в интернет-магазине Атлас Керамика возможно одним из 2-х способов:</p>
+<p>- Через форму заказа сайта</p>
+<p>Просто добавьте выбранные Вами товары в корзину и оформите заказ. Наш менеджер свяжется в ближайшее время, подтвердит Ваш заказ, ответит на все Ваши вопросы</p>
+<p>- Оформить заказ по телефону +7 (812) 313-26-12 или +7 (981) 102-72-42</p>
+<p>Прием заказов на сайте через корзину осуществляется круглосуточно.</p>
+<p>Прием заказов по телефону осуществляется ежедневно с 9.00 до 20.00.</p>
+<p>После поступления заказа, наш Менеджер свяжется с Вами по телефону для согласования места и времени доставки.</p>
+<p>Минимальная сумма заказа составляет 10 000 рублей. Предоплата 100%</p>
+					<span>Гарантии:</span>
+					<ul class="list_inf_card">
+						<li>мы работаем только с проверенными производителями.</li>
+						<li>любой товар купленный у нас имеет гарантийный срок и необходимую сертификацию.</li>
+					</ul>
 				</div>
 			</div>
+
 		</div>
 	</div>
 	<footer>
